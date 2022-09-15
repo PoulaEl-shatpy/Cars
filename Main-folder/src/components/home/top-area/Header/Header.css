@@ -1,0 +1,79 @@
+/* .header-com {
+    width: 75%;
+    height: 100vh;
+    margin: 0 auto;
+    background-image:url("../../imgs/istockphoto-457344437-612x612.jpg");
+    background-size:cover;
+    background-position: center;
+    position: relative;
+
+} */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+
+.header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.header ul li {
+    margin-left: 41px;
+}
+
+.header ul li button {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 10px;
+    /* background-color: black; */
+}
+
+
+.header ul li button .icon {
+    font-size: 28px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+header ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.header ul li:hover:after {
+    width: 100%;
+}
+
+
+.header ul li button .eg-flag  {
+    max-width: 26px;
+    max-height: 26px;
+    margin-right: 10px;
+    /* margin: 5px 10px 5px 0; */
+}
+
+.header ul li button p {
+    color: #fff;
+    /* font-size: 18px; */
+    font-weight: 700;
+    /* text-transform: uppercase; */
+} 
+

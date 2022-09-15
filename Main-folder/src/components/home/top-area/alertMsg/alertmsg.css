@@ -1,0 +1,42 @@
+.alert-message {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    /* padding: 16px; */
+}
+
+.alert-message .i {
+    color: #fff;
+    background-color: red;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 200px;
+    margin-right: 10px;
+
+}
+
+.alert-message p {
+    font-size: 14px;
+    opacity: 60% ;
+}
+
+.learn-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.learn-more a {
+    color: #333;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+.learn-more .r-hand {
+    margin: 5px;
+}

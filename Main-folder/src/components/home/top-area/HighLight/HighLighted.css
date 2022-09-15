@@ -1,0 +1,7 @@
+.highLighted-test{
+    font-size: 36px;
+    width: calc(50% - 12px);
+    margin: 50px 10px 40px;
+    color: #090;
+    font-weight: 700;
+}
