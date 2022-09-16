@@ -1,19 +1,84 @@
-/* .header-com {
-    width: 75%;
-    height: 100vh;
-    margin: 0 auto;
-    background-image:url("../../imgs/istockphoto-457344437-612x612.jpg");
-    background-size:cover;
-    background-position: center;
-    position: relative;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-} */
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+ul li {
+    margin-left: 40px;
+}
 
+.header ul li::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+.header ul li:hover::after{
+    width: 100%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+}
+
+.btn span {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.btn p {
+    color: #fff;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+
+.btn .eg-flag {
+    display: block;
+    max-width: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 10px;
 }
 
 
@@ -24,7 +89,7 @@
     list-style: none;
 }
 .header ul li {
-    margin-left: 41px;
+    margin-left: 30px;
 }
 
 .header ul li button {
@@ -33,12 +98,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
     font-weight: 700;
     cursor: pointer;
-    padding: 10px;
-    /* background-color: black; */
 }
 
 
@@ -48,13 +111,13 @@
     margin-right: 10px;
 }
 
-header ul li::after {
+.header ul li::after {
     content: '';
     width: 0%;
     height: 2px;
     background: #fff;
     display: block;
-    margin: auto;
+    margin: 4px;
     transition: 0.5s;
 }
 
@@ -67,13 +130,10 @@ header ul li::after {
     max-width: 26px;
     max-height: 26px;
     margin-right: 10px;
-    /* margin: 5px 10px 5px 0; */
 }
 
 .header ul li button p {
     color: #fff;
-    /* font-size: 18px; */
     font-weight: 700;
-    /* text-transform: uppercase; */
 } 
-
+ */

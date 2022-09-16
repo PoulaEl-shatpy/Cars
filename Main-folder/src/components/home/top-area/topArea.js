@@ -9,17 +9,30 @@ import './topArea.css'
 export default function TopArea() {
 
     return (
-        <main className="main">
+
+        <main>
             <AlertMsg />
             <section className="top-area-container">
-                <section className="top-section">
-                    
-                    <Header />
-                    <HighLightedArea />
-                </section>
-                <section className="middle-section">
-                </section>
+                <Header />
+                <HighLightedArea />
             </section>
         </main>
+
     )
 }
+
+
+
+
+
+
+    // <main className="main">
+    //     <AlertMsg />
+    //     <section className="top-area-container">
+    //             <Header />
+    //         <section className="top-section">
+    //             <HighLightedArea />
+    //         </section>
+    //         <section className="middle-section"></section>
+    //     </section>
+    // </main>

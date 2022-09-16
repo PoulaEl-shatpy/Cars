@@ -1,15 +1,17 @@
-.main {
+main {
     background-color: #000;
 } 
 
 
+
 .top-area-container{
     width: 75%;
-    height: 100vh;
-    margin: 0 auto;
-    background-image:url("../../../imgs/istockphoto-457344437-612x612.jpg");
+    height: calc(100vh - 50px);
+    margin: 0px auto;
+    background-image:url("../../../imgs/car1.jpg");
     background-size:cover;
     background-position: center;
     position: relative;
+    padding: 16px 12px;
 }
 
