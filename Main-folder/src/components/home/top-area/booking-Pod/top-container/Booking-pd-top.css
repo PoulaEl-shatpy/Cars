@@ -1,0 +1,67 @@
+.bookig-bod__top-container {
+    padding: 32px 32px 0;
+}
+
+
+.vehicle{
+    width: fit-content;
+}
+
+.vehicle-title {
+    padding-bottom: 8px;
+}
+
+.vehicle-title-text {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.vehicle-options {
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px #bfbfbf;
+    padding: 0;
+    overflow-x: auto;
+}
+
+.booking__btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    cursor: pointer;
+    padding: 0 1px 0 0;
+    height: 48px;
+    background-color: transparent;
+    /* color: #fff; */
+
+}
+
+.button__container {
+    color: #fff;
+}
+.button__container.active,
+.button__container.active p {
+    background-color: #090;
+    color: #fff;
+}
+.btn-van {
+    border-radius: 0;
+}
+
+.booking__btn img {
+    margin: 6px 12px ;
+    width: 48px;
+    max-height: 21px;
+}
+
+.booking__p {
+    display: block;
+    padding: 0 12px 0 0;
+    text-shadow: 0.09ex 0 #fff;
+    font-weight: 400;
+    line-height: 1.46;
+    font-size: 14px;
+}

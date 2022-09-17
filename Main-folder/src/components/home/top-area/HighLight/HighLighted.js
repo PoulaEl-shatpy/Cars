@@ -25,14 +25,14 @@ export default function HighLightedArea() {
                                 </div>
                             </div>
                         </div>
-                        <div className="highlighted-deal-url">
+                        {/* <div className="highlighted-deal-url">
                             <a href="#" className="highkighted-deal-redirect">
                                 More details
-                                <span class="material-symbols-outlined ar-icon">
+                                <span className="material-symbols-outlined ar-icon">
                                     arrow_right_alt
                                 </span>
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                 </a>
             </div>
