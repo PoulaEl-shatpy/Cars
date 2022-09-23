@@ -1,0 +1,124 @@
+
+.booking-pod-middle-container {
+    padding: 0 32px;
+    display: flex;
+    margin-top: 24px;
+}
+
+.pickup-return-container {
+    width: 50%;
+}
+
+/* .header {
+    width: inherit;
+} */
+
+.pickup-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    width: 85%;
+}
+
+.pickup-header .header-text {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.checkbox-container {
+    display: flex;
+}
+
+.checkbox-container .checkbox {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.checkbox-container label {
+    font-size: 12px;
+    columns: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fake-input {
+    background-color: #090;
+    border: 1px solid #bfbfbf;
+    border-radius: 25%;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+    margin-right: 8px;
+    display: flex;
+    width: 20px;
+    height: 20px;
+
+}
+
+.fake-input::before {
+    content: "";
+    border: solid #fff;
+    border-width: 0 1.5px 1.5px 0;
+    height: 8px;
+    width: 4px;
+    transform: rotate(45deg) translate(-1px,-1px);
+    opacity: 1;
+
+}
+
+.inputs-field{
+    display: flex;
+    justify-content: space-between; 
+    width: 89%; 
+
+}
+
+
+.pickup__location-input, 
+.return__location-input {
+    position: relative;
+}
+
+.icon-location {
+    padding: 10px 15px 10px 10px;
+    position: absolute; 
+    top: 50%;
+    left: -2%;
+    transform: translateY(-50%);
+    color: #090;
+    width: 24px;
+}
+
+.pickup-location, .return-location {
+    width: 100%;
+    height: 56px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 20px 30px;
+    border: 2px solid #bfbfbf;
+    outline: none;
+}
+
+.pickup-location:focus, 
+.return-location:focus{
+    border: 3px solid #090;
+}
+
+.pickup-location::placeholder,
+.return-location::placeholder {
+    color: #ccc;
+    font-size: 16px;
+
+}
