@@ -3,11 +3,11 @@ import carImg from '../../../../../imgs/cars-filter.bdb1eda.png';
 import vanAndTruckImg from '../../../../../imgs/vans-trucks-filter.2319eb0.png';
 import prestigecar from '../../../../../imgs/vans-trucks-filter.2319eb0.png';
 import "./Booking-pd-top.css"
-import { useState } from "react";
+// import { useState } from "react";
 
 export default function BookingPodTop() {
     return (
-        <div className="bookig-bod__top-container">
+        <div className="bookig-pod__top-container">
         <div className="vehicle">
             <div className="vehicle-title">
                 <p className="vehicle-title-text">What type of vehicle?</p>

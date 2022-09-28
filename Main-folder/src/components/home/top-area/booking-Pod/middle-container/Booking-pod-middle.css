@@ -1,4 +1,3 @@
-
 .booking-pod-middle-container {
     padding: 0 32px;
     display: flex;
@@ -8,10 +7,6 @@
 .pickup-return-container {
     width: 50%;
 }
-
-/* .header {
-    width: inherit;
-} */
 
 .pickup-header {
     display: flex;
@@ -38,7 +33,7 @@
     padding: 0;
     margin: -1px;
     overflow: hidden;
-    clip: rect(0,0,0,0);
+    clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
 }
@@ -62,7 +57,6 @@
     display: flex;
     width: 20px;
     height: 20px;
-
 }
 
 .fake-input::before {
@@ -71,27 +65,24 @@
     border-width: 0 1.5px 1.5px 0;
     height: 8px;
     width: 4px;
-    transform: rotate(45deg) translate(-1px,-1px);
+    transform: rotate(45deg) translate(-1px, -1px);
     opacity: 1;
-
 }
 
-.inputs-field{
+.inputs-field {
     display: flex;
-    justify-content: space-between; 
-    width: 89%; 
-
+    justify-content: space-between;
+    width: 89%;
 }
 
-
-.pickup__location-input, 
+.pickup__location-input,
 .return__location-input {
     position: relative;
 }
 
 .icon-location {
     padding: 10px 15px 10px 10px;
-    position: absolute; 
+    position: absolute;
     top: 50%;
     left: -2%;
     transform: translateY(-50%);
@@ -99,7 +90,8 @@
     width: 24px;
 }
 
-.pickup-location, .return-location {
+.pickup-location,
+.return-location {
     width: 100%;
     height: 56px;
     background: #fff;
@@ -111,8 +103,10 @@
     outline: none;
 }
 
-.pickup-location:focus, 
-.return-location:focus{
+.pickup-location:focus,
+.return-location:focus,
+.date-input:focus,
+.time-input:focus{
     border: 3px solid #090;
 }
 
@@ -120,5 +114,69 @@
 .return-location::placeholder {
     color: #ccc;
     font-size: 16px;
+}
 
+/* =========================================================================== */
+/* =========================================================================== */
+/* =========================================================================== */
+
+
+.datetime-container {
+    width: 50%;
+    display: flex;
+}
+
+
+.pickup-datatime__header-text {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.pickup-datetime,
+.return-datetime {
+    position: relative;
+    display: flex;
+}
+
+.date-input,
+.time-input {
+    position: relative;
+    border-radius: 5px;
+    height: 56px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    /* border-radius: 5px; */
+    border: 2px solid #bfbfbf;
+    outline: none;
+}
+
+.date-input {
+    padding: 20px 30px;
+    border-radius: 5px 0 0 5px;
+    color: #090;
+}
+
+.time-input {
+    padding: 5px 3px;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    /* display: none;  */
+    height: 22px;
+    width: 22px;
+    padding: 16px 6px 0;
+    position: absolute;
+    top: 35%;
+    left: -2px;
+    transform: translateY(-50%);
+}
+
+.return-datatime-right__chiled {
+    margin-left: 10px;
 }
